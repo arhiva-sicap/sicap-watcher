@@ -1,0 +1,32 @@
+{
+  "name": "sicap-watcher",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "sicap-watcher": "src/index.js"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.8.0",
+    "@sendgrid/mail": "^7.2.3",
+    "date-fns": "^2.15.0",
+    "lodash": "^4.17.20",
+    "mjml": "^4.6.3",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.6.0",
+    "jest": "^26.4.0"
+  }
+}
