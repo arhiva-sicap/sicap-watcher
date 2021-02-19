@@ -51,7 +51,7 @@ Creeaza index **alerte**, **alerte-log** si **alerte-errors** in Elasticsearch
 Redenumeste fisierul .env.example in .env si completeaza ES_NODE cu adresa serverului de Elasticsearch, adresa de email si api key-ul de la Sendgrid pentru a putea trimite mesaje.
 
 ```bash
-git clone git@github.com:sicap-ai/sicap-watcher.git
+git clone git@github.com:ciocan/sicap-watcher.git
 npm install
 npm link
 ```
